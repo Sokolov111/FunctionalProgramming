@@ -1,0 +1,126 @@
+/* Запрос к адаптивке */
+
+@media (max-width: 960px) {
+    /* на 960px пропадет хэдэр */
+    .head_links {
+        display: none;
+    }
+    /* на 960px покажется меню */
+    .mobile_bar {
+        visibility: visible;
+    }
+    /* В первой секции пропадает ввод данных  */
+    .fs_fill {
+        display: none;
+    }
+    /* На 960px текст встанет по центру */
+    .background {
+        justify-content: center;
+        text-align: center;
+    }
+    /* 2 секция */
+    /* Текст с иконкой становится по-центру */
+    .sec_two {
+        text-align: center;
+    }
+    /* Последняя иконка прпадает */
+    .sec_two .sec_tw_container:last-child {
+        display: none;
+    }
+    /* 3я секция */
+    /* Картинка в 3й секции */
+    .st_img {
+        display: none;
+    }
+    /* Отступ для текста */
+    .st_back {
+        padding: 0 15%;
+    }
+    /* 4я сек */
+    /* Картинки */
+    .fsd_one .fs_img_back {
+        width: 200px;
+        height: 180px;
+    }
+    .fsd_two .fs_img_back {
+        width: 200px;
+        height: 180px;
+    }
+    /* текст в картинке */
+    .fade h1 {
+        font-size: 20px;
+        font-weight: 500;
+        border-bottom: 1px solid #fff;
+    }
+    .fade p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    /* 5я сек */
+    /* Размер дивок */
+    .secf_line {
+        height: 40%;
+    }
+    .secf_line p {
+        font-size: 25px;
+    }
+    .secf_proc h4 {
+        font-size: 15px;
+    }
+    /* 7я сек */
+    /* Ссылки в конце */
+    .container_f div:last-child {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+    /* Уменьшение контента в 1й сек */
+    .fs_content h1 {
+        font-size: 25px;
+    }
+    .fs_content p,
+    .fs_btn {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:600px) {
+    /* 2я сек */
+    /* Иконки */
+    .sec_tw_container a {
+        font-size: 15px;
+    }
+    .sec_tw_container p {
+        font-size: 10px;
+    }
+    /* 6я сек */
+    /* Кнопка get */
+    .get_btn {
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+    }
+    /* Полоса SEOBIZ */
+    .ss_par h1 {
+        width: 70px;
+    }
+    .ss_par h1,
+    .ss_par h4 {
+        font-size: 20px;
+    }
+    /* 4я сек */
+    /* Картинки */
+    .fsd_one .fs_img_back {
+        width: 120px;
+        height: 100px;
+    }
+    .fsd_two .fs_img_back {
+        width: 120px;
+        height: 100px;
+    }
+    /* Подвал */
+    .podval h2 {
+        font-size: 13px;
+    }
+}

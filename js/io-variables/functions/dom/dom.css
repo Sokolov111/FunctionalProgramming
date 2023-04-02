@@ -1,0 +1,60 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Сначала flex , потом укажи none */
+    /* none - для того ,чтобы с начала не было видно  */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    width: 50%;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+/* Переход в js */
+
+
+/* После js */
+
+.modal.active {
+    display: flex;
+}
+
+
+/* Покажи и иди в html */
+
+
+/* Полсле того как создал кнопку закрытия */
+
+.close_btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.close_btn:hover {
+    background-color: #000;
+    transition: .3s;
+}
+
+
+/* Напиши в js ф-ю close_modal */

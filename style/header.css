@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.margin {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.header {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h_a {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+
+.h_a:hover {
+    color: #f2a443;
+    transition: .3s;
+}
+
+.h_a:not(:hover) {
+    transition: .3s;
+}
+
+.link_active {
+    color: #f2a443;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #f2a443;
+}

@@ -1,0 +1,8 @@
+ /* новое , подгонка  */
+ 
+ .mobile_bar {
+     font-size: 26px;
+     visibility: hidden;
+     position: absolute;
+     right: 3%;
+ }

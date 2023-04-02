@@ -1,0 +1,528 @@
+.first_sec {
+    height: 70vh;
+    background-image: url(../img/background/bg-image-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.background {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.fs_content {
+    width: 35%;
+}
+
+.fs_content h1 {
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.fs_content p {
+    font-size: 15px;
+    color: #fff;
+    font-size: 400;
+    line-height: 25px;
+    margin: 10% 0;
+}
+
+.fs_fill {
+    width: 55%;
+    height: 350px;
+    background-color: rgba(10, 4, 4, 0.7);
+    margin-left: 25%;
+    position: relative;
+}
+
+.fs_fill input {
+    width: 215px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #fff;
+    border: #fff solid 2px;
+    margin: 3% 30px;
+    margin-bottom: 5%;
+    padding-left: 5%;
+}
+
+.fs_fill input::placeholder {
+    color: #fff;
+    font-size: 15px;
+}
+
+.fs_fill h2 {
+    margin-left: 6%;
+    margin-top: 5%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.sec_two {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.sec_tw_container {
+    width: 20%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.sec_tw_container a {
+    margin: 10% 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec_tw_container a:hover {
+    color: #f2a443;
+    transition: 0.3s;
+}
+
+.sec_tw_container a:not(:hover) {
+    transition: 0.3s;
+}
+
+.sec_tw_container p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    line-height: 25px;
+    text-align: center;
+}
+
+.sec_two_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab {
+    color: #f2a443;
+    font-size: 45px;
+    border: 4px solid #f2a443;
+    border-radius: 50%;
+    padding: 10%;
+}
+
+
+/* Тертья сек. */
+
+.sec_three {
+    height: 80vh;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.st_img {
+    background-image: url(../img/background/bg-image-2.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.st_back {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.st_about {
+    width: 80%;
+    margin: 15% 15%;
+}
+
+.st_about h1 {
+    color: #333333;
+    font-size: 30px;
+    border-bottom: 1px solid #f2a443;
+    padding-bottom: 20px;
+    width: 130px;
+    margin-bottom: 5%;
+}
+
+.st_about p {
+    color: #333;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 5%;
+}
+
+.st_line {
+    width: 100%;
+    /* border: 1px solid #000; */
+}
+
+.st_br {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.st_br h3 {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.line {
+    background-color: #f2a443;
+    border-radius: 10px;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* 4я секция  */
+
+.sec_four {
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 5%;
+}
+
+.sf_gallery {
+    width: 125px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #f2a443;
+}
+
+.fs_img {
+    width: 90%;
+    height: 260px;
+    margin-bottom: 3%;
+    text-decoration: none;
+}
+
+.fsd_one {
+    width: 100%;
+    display: flex;
+}
+
+.fsd_two {
+    width: 100%;
+    display: flex;
+}
+
+.fs_img_back {
+    width: 90%;
+    height: 260px;
+    background-image: url(../img/background/bg-image-2.jpg);
+    background-size: cover;
+    margin: 5% 5%;
+}
+
+.fade {
+    /* display: none; */
+    background-color: rgba(253, 143, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+.fade h1 {
+    /* transform: translateX(105%); */
+    padding-top: 10%;
+    margin: 0 15%;
+    width: 280px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 35px;
+    border-bottom: #fff solid 3px;
+    text-decoration: none;
+}
+
+.fade p {
+    color: #fff;
+    margin: 10% 15%;
+    font-weight: 500;
+}
+
+
+/* .fade:hover { */
+
+
+/* display: flex; */
+
+
+/* background-color: rgba(253, 143, 0, 0.3);
+    animation: line 2s forwards; */
+
+
+/* } */
+
+
+/* Анимация */
+
+
+/* @keyframes line {
+    0% {
+        transform: translateX(100%);
+        display: flex;
+        background-color: #000;
+    }
+    50% {
+        display: flex;
+        background-color: #fff;
+    }
+} */
+
+
+/* Пятая */
+
+.sec_five {
+    height: 50vh;
+    margin-bottom: 5%;
+    background-image: url(../img/background/bg-image-2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secf_proc {
+    width: 20%;
+    height: 60%;
+    /* border: 1px solid #000; */
+    margin: 0 5%;
+}
+
+.secf_line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto;
+    color: #fff;
+    width: 50%;
+    height: 60%;
+    border: 4px solid #f2a443;
+    border-radius: 100%;
+}
+
+.secf_line p {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.secf_proc h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.sec_six h1 {
+    width: 120px;
+    border-bottom: 2px solid #fff;
+}
+
+.ss_contain {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sec_six {
+    background-color: #faaa47;
+    height: 20vh;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.ss_par {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.ss_par h1,
+.ss_par h4 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.ss_par h1 {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.ss_par h4 {
+    font-weight: 400;
+}
+
+.ss_contain p {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+/* Модалка в 6й секции */
+
+.ss_position {
+    top: 5%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.ss_modal {
+    background-color: #fff;
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    /* border: 1px solid #000; */
+}
+
+.ss_content {
+    margin: 10% 8%;
+}
+
+.ss_modal h3 {
+    border-bottom: 2px solid #f2a443;
+    width: 110px;
+    margin-bottom: 30px;
+}
+
+.ssbt_close {
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.ss_text input {
+    width: 100%;
+    height: 40px;
+    margin: 3% 0;
+    border: none;
+    background-color: #f8f8f8;
+}
+
+.ss_text input::placeholder {
+    padding-left: 5%;
+}
+
+.ss_text input:last-child {
+    height: 180px;
+    margin-bottom: 20%;
+}
+
+.ss_text input:last-child::placeholder {
+    transform: translateY(-60px);
+}
+
+
+/* 7я */
+
+.sec_sev {
+    height: 70vh;
+}
+
+.sec_sev h1 {
+    width: 125px;
+    margin: 5% auto;
+    border-bottom: #f2a443 solid 2px;
+}
+
+.container_f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ref_img {
+    width: 22%;
+    height: 150px;
+    border: 1px solid rgb(197, 195, 195);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 2%;
+}
+
+.ref_img:hover {
+    transition: .5s;
+    border: 1px solid #f2a443;
+}
+
+.ref_img:not(:hover) {
+    transition: .5s;
+}
+
+.ref_img img:hover {
+    transition: .5s;
+    transform: scale(90%);
+}
+
+.ref_img img:not(:hover) {
+    transition: .5s;
+}
+
+
+/* .s_sev_img {
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* Подвал */
+
+.podval {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.podval h2 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.podval h2:last-child {
+    margin-bottom: 20%;
+}
+
+.podval a {
+    color: #f2a443;
+}
+
+.podval a:hover {
+    color: #000;
+    transition: .3s;
+}
+
+.podval a:not(:hover) {
+    transition: .3s;
+}
+
+.face a {
+    font-size: 30px;
+    margin: 0 2%;
+}

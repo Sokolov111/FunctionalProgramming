@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS dom</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+
+<body>
+    <!-- После 59 в js -->
+    <button onclick="alert('hello!')">Send</button>
+    <!-- onclick - при нажатии -->
+    <button onclick="text()">Send2</button>
+    <!-- Покажи вызов ф-ии 
+    переходи в js
+    При нажатии на кнопку произойдет вызов ф-ии text()
+    Можно вызвать сразу несколько ф-ий -
+    -->
+    <button onclick="text();text()"></button>
+    <!-- выйдет 2 раза -->
+    <input type="text" onkeypress="text()">
+    <!-- onkeypress Когда вводим текст - вызывается ф-я -->
+    <button onmouseover="text()">text</button>
+    <button ondblclick="text()">text</button>
+    <!-- ondblclick - при двойном нажатии -->
+    <!-- onmouseover При наведении -->
+    <button onmouseout="text()">text</button>
+    <!-- onmouseout - когда убираем мышь
+    есть еще много методов , но это основные -->
+
+    <!-- как менять какие-то html элементы ?
+    для этого нужно взять адресс тега 
+    -->
+    <h1 id="text">Hello!</h1>
+    <button onclick="func();">H1</button>
+    <!-- Для того чтобы внести изменения в тег , задали ему id ,
+    по этому id можем обратиться в ф-ии , далее идем к нашей ф-ии .
+    -->
+    <!-- Иди в js -->
+
+    <input type="text">
+    <!-- type="text" - принимает любое зн - текст,число и тд -->
+    <input type="password">
+    <!-- type="password" - ввод пароля -->
+    <input type="number">
+    <!-- type="number" - ввод номера 
+    есть еще e-mail
+    -->
+    <input type="file">
+    <!-- type="file" - отправить файл -->
+    <!-- type="submit" - кнопка отправить -->
+    <input type="submit">
+    <!-- для того чтобы input сработал вместе с button - form -->
+    <form action="">
+        <input type="text" required>
+        <!-- required - обязательное поле -->
+        <input type="email" placeholder="E-mail">
+        <!-- placeholder - подсказка -->
+        <button>Send</button>
+    </form>
+    <!-- Это нужно в основном для БД -->
+    <!-- Если нужно написать коммментарий или какую - либо статью ,
+         можем использовать тег textarea -->
+    <textarea cols="30" rows="10" placeholder="Comment "></textarea>
+
+    <!-- Переходи обратно в js (77) -->
+    <!-- Создали input , посмотрим как с ним можно работать с помощью js -->
+    <!-- Создали тег , и присвоили ему id = content , 
+        далее в js обращаемся к этому тег по id -->
+    <input type="text" id="content">
+
+    <!-- Попробуем пработать с стилями тегов с помощью js -->
+    <!-- Еще один тег H1 , но уже с другим id  -->
+    <!-- Как поменять что-либо ? Размер , цвет , фон ... -->
+    <h1 id="style">Lorem, ipsum dolor.</h1>
+    <!-- После 108 js -->
+    <p class="paragraph">Lorem, ipsum dolor.</p>
+    <p class="paragraph">Lorem, ipsum dolor.</p>
+    <p class="paragraph">Lorem, ipsum dolor.</p>
+    <p class="paragraph">Lorem, ipsum dolor.</p>
+    <!-- После js 149 -->
+    <input type="submit" onclick="show(this)" value="123">
+    <!-- Пока только один тег -->
+    <input type="submit" onclick="show(this)" value="345">
+    <input type="submit" onclick="show(this)" value="789">
+    <button onclick="content_style()">Style</button>
+
+    <!-- В js (90) -->
+    <!-- <button onclick="cont()"></button> -->
+
+    <!-- Модальное окно -->
+    <button onclick="openModal()">Open Modal</button>
+    <!-- Создай ф-ю в js -->
+    <div class="modal">
+        <div class="content">
+            <h1>Hello World !</h1>
+            <!-- В dom.css задай стили -->
+            <!-- После active в css 
+            Сделаем кнопку , чтобы окно закрывалось
+            -->
+            <button class="close_btn" onclick="close_modal()">X</button>
+            <!-- Задай стили для кнопки -->
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="l4_f2.js"></script>
+
+
+</body>
+
+</html>

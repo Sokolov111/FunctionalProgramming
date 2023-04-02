@@ -1,0 +1,16 @@
+@import url(style/adaptive_code.css);
+@import url(style/header.css);
+@import url(style/sections.css);
+@import url(style/buttons.css);
+@import url(style/adaptive.css);
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Выделение всего контента оранжевое */
+
+*::selection {
+    background-color: rgba(250, 132, 5, 0.5);
+}
